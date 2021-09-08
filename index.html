@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Web Page</title> 
  <!--Embed Style Method-->
+    <!--had to change background size to 2000px in order to fit page. Same with the hieght-->
     <style>
       header {
-          background: url(images/central_park.jpg) no-repeat 0 -200px; /* place image as background */
-          height:  400px; /* give header some height to display the background image */
-          background-size: 1500px; /*background-positions: 0 -200px;*/
+          background: url(images/central_park.jpg)  0 -200px no-repeat; /* place image as background */
+          background-size: 2000px; /*background-positions: 0 -200px;*/
           /*background-repeat: no-repeat;*/
-          
-          
-          padding: 100px 0 0 100px ; /* clockwise starting 12 noon */
+          height:  600px; /* give header some height to display the background image */
+          width: auto; 
+          padding: 100px 0 0 100px; /* clockwise starting 12 noon */
         /*padding-top: 100px;
           padding-left: 100px;*/
-          font-weight:bold
-        font-family:Arial: Helvetica, sans-serif;
+          font-weight:bold;
+        font-family:Arial, Helvetica, sans-serif;
         } 
         
         li{
@@ -54,7 +54,7 @@
         
         main h1 {
             color: rgb(129,141,179);
-            font-family:Arial: Helvetica, sans-serif;
+            font-family:Arial, Helvetica, sans-serif;
 
         }
         footer {
@@ -84,7 +84,7 @@
                 <li><a href ="page3.html">Contact</a></li>
             </ul>
         </nav> <!--End Main Navigation-->
-
+     </div> <!-- End Container-->
      <!-- Main Content-->
  <main>
     <h1>My First Heading</h1>
@@ -93,6 +93,6 @@
  </main> <!-- End Main Content-->
  <!-- Footer Information-->
  <footer>&copy; Copyright 2021</footer>
- </div> <!-- End Container-->
+ 
 </body>
 </html>
